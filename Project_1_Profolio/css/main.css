@@ -1,0 +1,116 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0px;
+  max-width: 100%;
+}
+
+main {
+  font-family: "Lato", Helvetica, sans-serif;
+}
+
+article {
+  margin: auto;
+  max-width: 1200px;
+  width: 95%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+/* Header */
+#name {
+  font-family: "Fantacy", Papyrus, Copperplate;
+  margin-bottom: 2%; 
+  margin-top: 2%; 
+}
+
+.header-title {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  vertical-align: middle;
+  margin-bottom: 3%; 
+  margin-top: 3%;   
+}
+
+.block {
+  width: 50%;
+  vertical-align: middle;	
+}
+
+hr {
+  display: block;
+  height: 5px;
+  background-color: #7d97ad;
+}
+
+/* Main */
+h1 {
+  color: #2d3c49;
+  text-transform: uppercase;
+  text-align: right;
+  font-size: xx-large;
+}
+
+h2 {
+  color: #7d97ad;
+}
+
+h3 {
+  color: #2d3c49;
+  font-weight: bold;
+  text-align: center;
+  font-size: xx-large;
+}
+
+h4 {
+  color: #2d3c49;
+  text-transform: uppercase;
+  text-align: right;
+  font-size: large;
+}
+
+a {
+  text-decoration: none; 
+  color: #2d3c49; 
+}
+
+img {
+  vertical-align: middle;
+}
+
+.intro-pic {
+  margin-bottom:3%; 
+  margin-top:3%;
+  vertical-align: middle;
+  width: 100%;
+}
+
+#subtitle {
+  margin-left: 3%
+  width: 33.33%;
+}
+
+.feature {
+  width: 100%;
+  display: flex;
+  vertical-align: middle;
+  margin-bottom: 3%; 
+  margin-top: 3%;   	
+}
+
+.link {
+  text-align: center;
+  font-size: medium;
+}
+
+.feature-pic {
+  width: 32%;
+  margin: 0.5%;
+}
